@@ -1,14 +1,19 @@
-// import static org.junit.Assert.*;
-// import shopping.*;
-// import java.util.*;
+import static org.junit.Assert.*;
+import org.junit.*;
+import shopping.*;
 
-// public class BasketTest {
-//   Basket basket1;
+public class BasketTest {
+  Basket basket;
 
-//   @Before 
-//   public void before() {
-//     basket1 = new Basket(19);
-//   }
+  @Before 
+  public void before() {
+    basket = new Basket(19.00);
+  }
+
+  @Test
+  public void hasWeight() {
+    assertEquals(19.00, basket.getWeight(), 0.01);
+  }
 
 
-// }
+}
