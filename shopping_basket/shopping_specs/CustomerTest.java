@@ -1,14 +1,17 @@
 import static org.junit.Assert.*;
 import org.junit.*;
-package shopping.*;
+import shopping.*;
 
 public class CustomerTest {
-  Customer customer1;
+  Customer customer;
 
   @Before
   public void before() {
-    customer1 = new Customer("Keith")
+    customer = new Customer("Keith");
   }
 
-  
+  @Test
+  public void hasName() {
+    assertEquals("Keith", customer.getName());
+  }
 }

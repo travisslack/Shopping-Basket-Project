@@ -1,14 +1,14 @@
-package shopping;
-package behaviours;
+// package shopping;
+// // import java.util.ArrayList;
 
-public class Basket {
-  private int weight;
-  protected ArrayList<StockItem> stockItems;
+// public class Basket {
+//   private int weight;
+//   // protected ArrayList<StockItem> stockItems;
 
 
-  public Basket() {
-    this.weight = new Weight;
-    this.stockItems = new ArrayList<StockItem>();
+//   public Basket() {
+//     this.weight = weight;
+//     // this.stockItems = new ArrayList<StockItem>();
 
-  }
-}
+//   }
+// }
