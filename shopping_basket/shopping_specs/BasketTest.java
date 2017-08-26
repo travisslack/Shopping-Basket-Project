@@ -15,5 +15,10 @@ public class BasketTest {
     assertEquals(19.00, basket.getWeight(), 0.01);
   }
 
+  @Test
+  public void basketStartsEmpty() {
+    assertEquals(0, basket.itemCount());
+  }
+
 
 }
