@@ -10,7 +10,6 @@ public class Basket {
   public Basket(double weight) {
     this.weight = weight;
     this.items = new ArrayList<Item>();
-
   }
 
   public double getWeight() {

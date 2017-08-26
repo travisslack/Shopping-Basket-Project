@@ -4,10 +4,15 @@ import shopping.*;
 
 public class CustomerTest {
   Customer customer;
+  Basket basket1;
+  Bread bread;
 
   @Before
   public void before() {
     customer = new Customer("Keith");
+    basket1 = new Basket(15.00);
+    bread = new Bread(3.00);
+
   }
 
   @Test
