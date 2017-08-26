@@ -4,7 +4,7 @@ import java.util.*;
 public class Bread extends Item {
 
 
-  public Bread(double price) {
-    super(price);
+  public Bread(double price, double itemWeight) {
+    super(price, itemWeight);
   }
 }

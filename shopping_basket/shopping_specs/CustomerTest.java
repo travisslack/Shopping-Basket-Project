@@ -11,7 +11,7 @@ public class CustomerTest {
   public void before() {
     customer = new Customer("Keith");
     basket1 = new Basket(15.00);
-    bread = new Bread(3.00);
+    bread = new Bread(2.00, 5.00);
 
   }
 
