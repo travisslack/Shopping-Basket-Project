@@ -1,4 +1,7 @@
-package shopping_basket;
+import shopping_basket.*;
+import org.junit.*;
+import static org.junit.Assert.*;
+// import behaviours.*;
 
 public class StoreTest {
   Store store;
@@ -8,5 +11,8 @@ public class StoreTest {
     store = new Store("Keiths Grocery Store");
   }
 
-
+  @Test
+  public void hasStoreName() {
+    assertEquals("Keiths Grocery Store", store.getStoreName());
+  }
 }

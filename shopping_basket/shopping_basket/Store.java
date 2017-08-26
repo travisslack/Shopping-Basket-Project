@@ -1,11 +1,15 @@
 package shopping_basket;
+import java.util.ArrayList;
+// import behaviours.*;
 
 public class Store {
-  private String name;
+  private String storeName;
 
-  public Store(String name) {
-    this.name = name;
+  public Store(String storeName) {
+    this.storeName = storeName;
   }
 
-  
+  public String getStoreName() {
+    return this.storeName;
+  }
 }
