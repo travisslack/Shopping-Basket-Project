@@ -4,6 +4,8 @@ import shopping.*;
 
 public class BasketTest {
   Basket basket;
+  Bread bread;
+
 
   @Before 
   public void before() {
@@ -20,7 +22,13 @@ public class BasketTest {
     assertEquals(0, basket.itemCount());
   }
 
-  
+  // @Test 
+  // public void basketCanHoldItem() {
+  //   basket = new Basket(19.00);
+  //   bread = new Bread(4.50, 3.00);
+  //   assertEquals(16.00, )
+  // }
+
 
 
 }

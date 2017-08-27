@@ -3,7 +3,7 @@ import java.util.*;
 
 public abstract class Item{
   protected double price;
-  private double itemWeight;
+  protected double itemWeight;
   
 
   public Item(double price, double itemWeight) {
